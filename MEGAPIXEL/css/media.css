@@ -1,0 +1,49 @@
+/* Media query for screens with a maximum height of 1920px */
+@media (max-height: 1920px) {
+  .title {
+    font-size: 60px; /* Decrease the font size of the title */
+    margin-top: 40px; /* Increase the top margin of the title */
+    margin-bottom: 40px; /* Increase the bottom margin of the title */
+  }
+
+  .form {
+    margin-top: 20px; /* Increase the top margin of the form */
+    margin-bottom: 40px; /* Increase the bottom margin of the form */
+    max-width: 600px; /* Set the maximum width of the form to 600px */
+    width: 600px; /* Set the width of the form to 600px */
+    padding: 16px; /* Adjust the padding of the form */
+    border-radius: 12px; /* Adjust the border radius of the form */
+  }
+}
+
+/* Media query for screens with a maximum width of 768px */
+@media (max-width: 768px) {
+  html {
+    font-size: 14px; /* Decrease the base font size of the HTML */
+  }
+
+  .title {
+    font-size: 60px; /* Decrease the font size of the title */
+  }
+
+  .titlelogo {
+    width: 80px; /* Decrease the width of the title logo */
+    height: 80px; /* Decrease the height of the title logo */
+  }
+
+  .form {
+    max-width: 90%; /* Set the maximum width of the form to 90% */
+    width: 400px; /* Set the width of the form to 400px */
+    padding: 16px; /* Adjust the padding of the form */
+  }
+
+  .form input {
+    font-size: 12px; /* Decrease the font size of form inputs */
+    padding: 10px; /* Adjust the padding of form inputs */
+  }
+
+  .form button {
+    font-size: 14px; /* Decrease the font size of form buttons */
+    padding: 10px; /* Adjust the padding of form buttons */
+  }
+}
